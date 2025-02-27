@@ -81,8 +81,42 @@
         return "A área é: ".($num1 * $num2);
     }
 
-    function exercicio07(){
+    function votosBrancos($numE, $numB){
+        return $numB = ($numB * 100) / $numE;
+    }
+    function votosNulos($numE, $numN){
+        return $numN = ($numN * 100) / $numE;
+    }
+    function votosValidos($numE, $numV){
+        return $numV = ($numV * 100) / $numE;
+    }
+
+    function exercicio07($numE, $numB, $numN, $numV){
+        if(($numB + $numN + $numV) == $numE){
+            $pBrancos = porcentagem($numB, $numE);
+            $pNulos = porcentagem($numN, $numE);
+            $pValidos = porcentagem($numV, $numE);
+            return "o percentual de votos brancos foi: $pBrancos% \n
+                    o percentual de votos nulos foi: $pNulos% \n
+                    o percentual de votos validos foi: $pValidos%";
+        }else{
+            return "total de eleitores é diferente";
+        }
         
+    }
+    function porcentagem($total, $eleitores){
+        return ($total * 100) / $eleitores;
+    }
+
+
+    function exercicio08($salario, $porcentagem){
+        $salarioFinal = $salario * ($porcentagem/100) + $salario;
+        return "o salario atual do funcionário será: $salarioFinal";
+    }
+
+    function exercicio09($fabrica, $distribuidora, $impostos){
+        $carro = ($fabrica * ($distribuidora/100) + $fabrica) + ($fabrica * ($impostos/100) + $fabrica);
+        return "O valor final do carro do carro é: $carro";
     }
 
 ?>

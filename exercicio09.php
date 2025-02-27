@@ -11,31 +11,26 @@
 <?php include('funcoes.php') ?>
     <form class="form-control" method="POST">
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Total Eleitores: </label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" name="totalEleitores" placeholder="total Eleitores">
+            <label for="exampleFormControlInput1" class="form-label">Valor de Fabrica: </label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="fabrica" placeholder="valor Fabrica">
         </div>
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Votos Brancos: </label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" name="votosBrancos" placeholder="votos Brancos">
+            <label for="exampleFormControlInput1" class="form-label">Porcentagem da Distribuidora: </label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="distribuidora" placeholder="porcentagem Distribuidora">
         </div>
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Votos Nulos: </label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" name="votosNulos" placeholder="votos Nulos">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Votos Válidos: </label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" name="votosValidos" placeholder="votos Validos">
+            <label for="exampleFormControlInput1" class="form-label">Impostos: </label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="impostos" placeholder="impostos">
         </div>
      
 
     <br><br>
     <button type="submit" class="btn btn-primary">Calcular
         <?php
-            if(isset($_POST['totalEleitores']) && isset($_POST['votosBrancos']) && isset($_POST['votosNulos']) && isset($_POST['votosValidos'])){
-                $eleitoresT = $_POST['totalEleitores'];
-                $brancos = $_POST['votosBrancos'];
-                $nulos = $_POST['votosNulos'];
-                $validos = $_POST['votosValidos'];
+            if(isset($_POST['salarioFuncionario']) && isset($_POST['porcentagemA'])){
+                $salario = $_POST['salarioFuncionario'];
+                $porcentagem = $_POST['porcentagemA'];
+
             }
         ?>
     </button>
@@ -47,7 +42,7 @@
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" readonly>
             <?php
 
-                echo exercicio07($eleitoresT, $brancos, $nulos, $validos);
+                echo exercicio08($salario, $porcentagem);
         
             ?>
         </textarea>
