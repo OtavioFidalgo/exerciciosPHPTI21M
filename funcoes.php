@@ -119,4 +119,89 @@
         return "O valor final do carro do carro é: $carro";
     }
 
+    function exercicio10(){
+
+    }
+
+    function exercicio11($anos, $meses, $dias){
+        $totalDias = ($anos * 365) + ($meses * 30) + $dias;
+        return "a pessoa tem $totalDias de idade em dias!";
+    }
+
+    function exercicio12($qtdMaca){
+        if($qtdMaca < 12){
+            $qtdMaca = 1.30 * $qtdMaca;
+            return "Você pagará R$ $qtdMaca !";
+        }else if($qtdMaca > 12){
+            $qtdMaca = 1 * $qtdMaca;
+            return "Você pagará R$ $qtdMaca !";
+        }
+    }
+
+    function exercicio13(){
+
+    }
+
+    function exercicio14($salario, $vendas){
+        if($vendas <= 1500){
+            $comissao = $vendas * 0.03;
+            return $salario + $comissao;
+        }else if($vendas > 1500){
+            $comissao = $vendas * 0.05;
+        }
+        return "O vendedor receberá R$ $salario + $comissao por suas vendas !";
+    }
+
+    function exercicio15(){
+
+    }
+
+    function exercicio16($num){
+        $r = $num * 1;
+        $e = $num * 2;
+        $s = $num * 3;
+        $u = $num * 4;
+        $l = $num * 5;
+        $t = $num * 6;
+        $a = $num * 7;
+        $d = $num * 8;
+        $o = $num * 9;
+        $S = $num * 10;
+
+        return "a tabuada do $num é: $r /n
+                                        $e /n 
+                                        $s /n
+                                        $u /n
+                                        $l /n
+                                        $t /n
+                                        $a /n
+                                        $d /n
+                                        $o /n
+                                        $S /n";
+        
+    }
+
+    function exercicio17(){
+
+    }
+
+    function exercicio18(){
+
+    }
+
+    function exercicio19($num1, $num2, $num3, $num4, $num5, $num6, $num7, $num8, $num9, $num10){
+        $resultado = $num1 + $num2 + $num3 + $num4 + $num5 + $num6 + $num7 + $num8 + $num9 + $num10;
+        return "A soma dos 10 números é $resultado .";
+    }
+     function exercicio20($soma, $quantidade){
+        for ($i = 15; $i <= 100; $i++) {
+            $soma += $i;
+            $quantidade++;
+        }
+        
+        $media = $soma / $quantidade;
+        
+        return "A média aritmética dos números entre 15 e 100 é: $media\n";
+     }
+
 ?>
