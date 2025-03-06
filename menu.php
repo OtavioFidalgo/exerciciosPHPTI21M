@@ -30,14 +30,15 @@
     <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="">Exercício 18</a></button>
     <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="exercicio19.php">Exercício 19</a></button><br><br>
     <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="exercicio20.php">Exercício 20</a></button>
-    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="">Exercício 21</a></button><br><br>
-    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="">Exercício 22</a></button>
+    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="exercicio21.php">Exercício 21</a></button><br><br>
+    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="exercicio22.php">Exercício 22</a></button>
     <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="">Exercício 23</a></button><br><br>
     <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="">Exercício 24</a></button>
-    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="">Exercício 25</a></button><br><br>
+    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="exercicio25.php">Exercício 25</a></button><br><br>
     <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="">Exercício 26</a></button>
-    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="">Exercício 27</a></button><br><br>
-    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="">Exercício 28</a></button>
+    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="exercicio27.php">Exercício 27</a></button><br><br>
+    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="exercicio18_2.php">Exercício 18_2</a></button>
+    <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="exercicio28.php">Exercício 28</a></button>
     <button class="btn btn-primary"><a style="color: #000;text-decoration: none;" href="">Exercício 29</a></button><br><br>
 </body>
 </html>

@@ -204,4 +204,57 @@
         return "A média aritmética dos números entre 15 e 100 é: $media\n";
      }
 
+     function exercicio21($num1, $num2, $num3, $num4, $num5, $num6, $num7, $num8, $num9, $num10){
+        if($num1 > $num2 && $num1 > $num3 && $num1 > $num4 && $num1 > $num5 && $num1 > $num6 && $num1 > $num7 && $num1 > $num8 && $num1 > $num9 && $num1 > $num10){
+            return "O maior número é :$num1";
+        }else if($num2 > $num1 && $num2 > $num3 && $num2 > $num4 && $num2 > $num5 && $num2 > $num6 && $num2 > $num7 && $num2 > $num8 && $num2 > $num9 && $num2 > $num10){
+            return "O maior número é :$num2";
+        }else if($num3 > $num2 && $num3 > $num1 && $num3 > $num4 && $num3 > $num5 && $num3 > $num6 && $num3 > $num7 && $num3 > $num8 && $num3 > $num9 && $num3 > $num10){
+            return "O maior número é :$num3";
+        }else if($num4 > $num2 && $num4 > $num3 && $num4 > $num1 && $num4 > $num5 && $num4 > $num6 && $num4 > $num7 && $num4 > $num8 && $num4 > $num9 && $num4 > $num10){
+            return "O maior número é :$num4";
+        }else if($num5 > $num2 && $num5 > $num3 && $num5 > $num4 && $num5 > $num1 && $num5 > $num6 && $num5 > $num7 && $num5 > $num8 && $num5 > $num9 && $num5 > $num10){
+            return "O maior número é :$num5";
+        }else if($num6 > $num2 && $num6 > $num3 && $num6 > $num4 && $num6 > $num5 && $num6 > $num1 && $num6 > $num7 && $num6 > $num8 && $num6 > $num9 && $num6 > $num10){
+            return "O maior número é :$num6";
+        }else if($num7 > $num2 && $num7 > $num3 && $num7 > $num4 && $num7 > $num5 && $num7 > $num6 && $num7 > $num1 && $num7 > $num8 && $num7 > $num9 && $num7 > $num10){
+            return "O maior número é :$num7";
+        }else if($num8 > $num2 && $num8 > $num3 && $num8 > $num4 && $num8 > $num5 && $num8 > $num6 && $num8 > $num7 && $num8 > $num1 && $num8 > $num9 && $num8 > $num10){
+            return "O maior número é :$num8";
+        }else if($num9 > $num2 && $num9 > $num3 && $num9 > $num4 && $num9 > $num5 && $num9 > $num6 && $num9 > $num7 && $num9 > $num8 && $num9 > $num9 && $num9 > $num10){
+            return "O maior número é :$num9";
+        }else{
+            return "O maior número é :$num10, ";
+        }
+        
+     }
+     function exercicio21_1($num1, $num2, $num3, $num4, $num5, $num6, $num7, $num8, $num9, $num10){
+        $media = ($num1 + $num2 + $num3 + $num4 + $num5 + $num6 + $num7 + $num8 + $num9 + $num10) / 10;
+        return "A média dos valores é: $media";
+     }
+
+     function exercicio22($num1, $num2, $num3, $num4, $num5, $num6, $num7, $num8, $num9, $num10, $num11, $num12, $num13, $num14, $num15, $num16, $num17, $num18, $num19, $num20){
+        $media = ($num1 + $num2 + $num3 + $num4 + $num5 + $num6 + $num7 + $num8 + $num9 + $num10 + $num11 + $num12 + $num13 + $num14 + $num15 + $num16 + $num17 + $num18 + $num19 + $num20) /20;
+        return "A média da Turma é: $media";
+     }
+
+     function exercicio25($raio){
+        $area = 3.14 * ($raio * $raio);
+        return "A área da circunferência é: $area";
+     }
+
+     function exercicio27($celsius){
+        $fahrenheit = (9 * $celsius + 160) / 5;
+        return "A temperatura em Fahrenheit é: $fahrenheit";
+     }
+
+     function exercicio18_2($raio, $altura){
+        $volume = 3.14 * ($raio * $raio) * $altura;
+        return "O volume da lata de óleo é: $volume";
+     }
+     function exercicio28($raio, $altura){
+        $volume = 3.14 * ($raio * $raio) * $altura;
+        return "O volume da lata de óleo é: $volume";
+     }
+
 ?>
